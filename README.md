@@ -13,11 +13,17 @@ Một widget Übersicht hiển thị giá vàng SJC 1 lượng kèm chênh lệc
 
 ## Yêu cầu trước khi cài đặt/chạy
 
+- macOS 12+
+- [Übersicht](https://github.com/felixhageloh/uebersicht)
 - Máy bạn phải có python3. Hãy tra Google cách cài python lên Mac nếu chưa có. Khuyến nghị download cài từ python.org.
 - Kiểm tra xem máy đã có python chưa:
   
-Run:
-
 ```bash
 python3 --version
+```
 
+- Sau đó, cài thêm thư viện sau:
+
+```bash
+python3 -m pip install --upgrade curl_cffi
+```
