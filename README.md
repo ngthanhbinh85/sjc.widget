@@ -15,27 +15,27 @@ Một widget Übersicht hiển thị giá vàng SJC 1 lượng kèm chênh lệc
 
 ## Installation (Cài đặt)
 
-- Download and extract this repository.
-- Copy `sjc.widget` to your Übersicht widgets directory.
-- Refresh Übersicht.
-- 
-- Download repository và giải nén.
-- Copy sjc.widget đến thư mục widget của Übersicht.
-- Refresh Übersicht.
+1. Download and extract this repository.
+2. Copy `sjc.widget` to your Übersicht widgets directory.
+3. Refresh Übersicht.
+
+1. Download repository và giải nén.
+2. Copy sjc.widget đến thư mục widget của Übersicht.
+3. Refresh Übersicht.
 
 ## Requirements (Yêu cầu trước khi cài đặt/chạy)
 
 Before installation and running, make sure you have:
 
-- macOS 12+
-- [Übersicht](https://github.com/felixhageloh/uebersicht)
-- Python 3 installed on your Mac. If you do not have Python installed, search online for instructions on installing Python on macOS. It is recommended to download and install Python from [python.org](https://www.python.org/).
-- Check whether Python is already installed:
+1. macOS 12+
+2. [Übersicht](https://github.com/felixhageloh/uebersicht)
+3. Python 3 installed on your Mac. If you do not have Python installed, search online for instructions on installing Python on macOS. It is recommended to download and install Python from [python.org](https://www.python.org/).
+4. Check whether Python is already installed:
 
-- macOS 12+
-- [Übersicht](https://github.com/felixhageloh/uebersicht)
-- Máy bạn phải có python3. Hãy tra Google cách cài python lên Mac nếu chưa có. Khuyến nghị download cài từ python.org.
-- Kiểm tra xem máy đã có python chưa:
+1. macOS 12+
+2. [Übersicht](https://github.com/felixhageloh/uebersicht)
+3. Máy bạn phải có python3. Hãy tra Google cách cài python lên Mac nếu chưa có. Khuyến nghị download cài từ python.org.
+4. Kiểm tra xem máy đã có python chưa:
   
 ```bash
 python3 --version
