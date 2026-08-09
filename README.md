@@ -11,12 +11,6 @@ The widget also displays the international spot gold price and the USD/VND excha
 
 Data is automatically refreshed every 5 minutes. You can adjust this interval in the code, but a refresh interval shorter than 5 minutes is not recommended for two main reasons: to avoid being blocked by data provider servers and because SJC gold prices do not change very frequently.
 
-## Installation
-
-1. Download and extract this repository.
-2. Copy `sjc.widget` to your Übersicht widgets directory.
-3. Refresh Übersicht.
-
 ## Requirements
 
 Before installation and running, make sure you have:
@@ -35,15 +29,15 @@ python3 --version
 python3 -m pip install --upgrade curl_cffi
 ```
 
+## Installation
+
+1. Download and extract this repository.
+2. Copy `sjc.widget` to your Übersicht widgets directory.
+3. Refresh Übersicht.
+
 # Tiếng Việt
 
 Một widget Übersicht hiển thị giá vàng SJC 1 lượng kèm chênh lệch với giá giao ngay quốc tế (chưa bao gồm thuế phí). Widget cũng hiển thị giá giao ngay, tỉ giá USD/VND ngay thời điểm nạp dữ liệu. Dữ liệu sẽ được nạp lại mỗi 5 phút. Bạn có thể chỉnh trong mã, nhưng khuyến nghị không nên dưới 5 phút vì hai lí do chính: tránh bị các server cung cấp dữ liệu chặn và giá SJC cũng không thay đổi quá thường xuyên.
-
-## Cài đặt
-
-1. Download repository và giải nén.
-2. Copy sjc.widget đến thư mục widget của Übersicht.
-3. Refresh Übersicht.
 
 ## Yêu cầu trước khi cài đặt/chạy
 
@@ -61,3 +55,9 @@ python3 --version
 ```bash
 python3 -m pip install --upgrade curl_cffi
 ```
+
+## Cài đặt
+
+1. Download repository và giải nén.
+2. Copy sjc.widget đến thư mục widget của Übersicht.
+3. Refresh Übersicht.
